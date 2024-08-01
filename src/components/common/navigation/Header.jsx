@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import logo from "../../../assets/logo.png"
-import { HiMiniPhone } from "react-icons/hi2";
+import { LiaUserEditSolid } from "react-icons/lia";
 
 const Header = () => {
   return (
@@ -19,7 +19,7 @@ const Header = () => {
                                                      <li><Link to={"/contact"}>Contact</Link></li>
                                              </ul>
                                               <div className="header-action">
-                                                         <span><HiMiniPhone /></span>
+                                                         <span><LiaUserEditSolid /></span>
                                                          <p>Book Appointment</p>
                                               </div>
                                    </nav>
