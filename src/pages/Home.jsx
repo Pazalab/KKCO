@@ -1,4 +1,5 @@
 import Navbar from "../components/common/navigation/Navbar"
+import AboutSection from "../components/home/AboutSection"
 import Extrahero from "../components/home/Extrahero"
 import FeaturesSection from "../components/home/FeaturesSection"
 import HeroSection from "../components/home/HeroSection"
@@ -10,7 +11,7 @@ const Home = () => {
             <HeroSection />
             <Extrahero />
             <FeaturesSection />
-           
+           <AboutSection />
     </>
   )
 }

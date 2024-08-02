@@ -2,8 +2,7 @@ import hero1 from "../../assets/hero3.jpg"
 import hero2 from "../../assets/hero2.jpg"
 import hero3 from "../../assets/hero4.jpg"
 import { PiStarFourFill } from "react-icons/pi";
-import { Link } from "react-router-dom";
-import { GiPolarStar } from "react-icons/gi";
+
 
 const HeroSection = () => {
   return (
@@ -13,13 +12,6 @@ const HeroSection = () => {
                                      <div className="hero-texts">
                                               <h1> Expert Financial and Advisory Solutions.</h1>
                                               <p> We provide comprehensive accounting, advisory, and outsourcing solutions tailored to your unique needs, helping you achieve your financial goals and drive sustainable growth.</p>
-
-                                              <div className="hero-call-action">
-                                                        <div className="action-box">
-                                                                  <span><GiPolarStar /></span>
-                                                        </div>
-                                                        <Link to={"/services"}>Explore Services</Link>
-                                              </div>
                                      </div>
                                      <div className="hero-image-side">
                                                   <div className="texts">

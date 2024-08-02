@@ -11,7 +11,7 @@
      --bold-font: "Urbanist", sans-serif;
      --main-color: #e30c17;
      --secondary-color: #0b0000;
-     --paragraph-color: #3c3c3c;
+     --paragraph-color: #393939;
      --heading-color: #040404;
 }
 
@@ -78,6 +78,11 @@ button{
      mix-blend-mode: multiply;
      object-fit: contain;
 }
+
+
+
+
+
 header{
       background: white;
 }
