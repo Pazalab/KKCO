@@ -79,8 +79,29 @@ button{
      object-fit: contain;
 }
 
-
-
+.intro h3{
+       color: var(--main-color);
+       font-size: 17px !important;
+       font-weight: 500;
+       display: inline-flex;
+       padding: 7px 30px;
+       border-radius: 7px;
+       -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+       -ms-border-radius: 7px;
+       -o-border-radius: 7px;
+       background: #ffb7bb71;
+}
+.intro h2{
+     font-size: 65px;
+     font-family: var(--bold-font);
+     line-height: 1.4;
+     margin: 10px 0;
+}
+.intro p{
+     font-size: 19px;
+     line-height: 1.7;
+}
 
 
 header{

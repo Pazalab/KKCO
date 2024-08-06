@@ -8,9 +8,9 @@ const FeaturesSection = () => {
     <div className="features-section">
             <div className="inner-row">
                       <div className="features-content">
-                                 <div className="features-description">
+                                 <div className="intro features-description">
                                            <h3>Why Choose Us</h3>
-                                           <h1>Your Comprehensive Business Partner for Growth</h1>
+                                           <h1>Your Comprehensive Business Partner for Growth.</h1>
                                            <p>We build enduring partnerships with SMEs, medium, and large enterprises. Our deep understanding of your business is the cornerstone of our service. By immersing ourselves in your operations, we deliver tailored solutions that drive sustainable growth for your business.</p>
                                  </div>
                                  <div className="features-row">
