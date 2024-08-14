@@ -642,6 +642,11 @@
        background-size: cover;
        background-position: center;
 }
+
+.service-moja:nth-child(5){
+       background: linear-gradient(transparent, rgba(54,0,0,0.875)), url("/services/all-services.jpg") no-repeat;
+       background-size: cover;
+}
 .service-moja:nth-child(6){
        grid-column: 3/4;
        grid-row: 2/4;
@@ -690,4 +695,341 @@
 .service-moja-texts span{
          display: flex;
          font-size: 25px;
+}
+
+
+.process-section{
+       padding: 100px 0;
+       background: var(--secondary-color);
+}
+
+.process-section-content{
+       display: grid;
+       grid-template-columns: 1.5fr 2.5fr;
+       gap: 60px;
+}
+
+.process-intro h3{
+       color: whitesmoke;
+       font-size: 17px;
+       font-weight: 500;
+       display: inline-flex;
+       padding: 7px 30px;
+       border-radius: 7px;
+       -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+       -ms-border-radius: 7px;
+       -o-border-radius: 7px;
+       background: rgba(255, 169, 169, 0.199);
+}
+.process-intro h2{
+       font-size: 40px;
+       color: whitesmoke;
+       font-family: var(--bold-font);
+       margin-top: 20px;
+       line-height: 1.5;
+       font-weight: 500;
+}
+
+.process-specifics{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 30px;
+}
+
+.process-moja{
+       padding: 40px;
+       background-color: #ff51511f;
+       border-radius: 7px;
+       -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+       -ms-border-radius: 7px;
+       -o-border-radius: 7px;
+       display: flex;
+       flex-direction: column;
+       gap: 30px;
+}
+
+.process-moja h3{
+       color: whitesmoke;
+       font-size: 45px;
+       font-family: var(--bold-font);
+       font-weight: 600;
+}
+.process-moja p{
+       color: rgb(224, 224, 224);
+       font-size: 16px;
+       font-weight: 300;
+}
+.process-moja h4{
+       color: whitesmoke;
+       line-height: 1.4;
+       font-size: 24px;
+       font-weight: 500;
+       margin-bottom: 15px;
+}
+
+.podcast-section{
+       padding: 100px 0;
+}
+
+.podcast-intro{
+       display: grid;
+       grid-template-columns: 2fr 1.75fr;
+       gap: 50px;
+       align-items: center;
+}
+.podcast-intro h1{
+       font-family: var(--bold-font);
+       font-size: 45px;
+       line-height: 1.5;
+}
+.podcast-intro p{
+       font-size: 18px;
+}
+
+.podcast-grid-row{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       gap: 30px;
+       margin-top: 50px;
+}
+
+.podcast-moja{
+       padding:30px;
+       background: #f5f2f2;
+       border-radius: 20px;
+       -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+       -ms-border-radius: 20px;
+       -o-border-radius: 20px;
+}
+.podcast-moja:nth-child(3){
+       background: transparent;
+       padding: 0;
+}
+.podcast-moja .image-section{
+       height: 200px;
+       border-radius: 15px;
+       -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+       -ms-border-radius: 15px;
+       -o-border-radius: 15px;
+       overflow: hidden;
+}
+.podcast-moja h3{
+       font-size: 24px;
+       font-family: var(--bold-font);
+       margin: 10px 0;
+       font-weight: 600;
+}
+.podcast-moja p{
+       margin-bottom: 5px;
+}
+.podcast-moja a{
+       display: flex;
+       justify-content: space-between;
+       color: var(--main-color);
+       transition: all 0.8s ease;
+       -webkit-transition: all 0.8s ease;
+       -moz-transition: all 0.8s ease;
+       -ms-transition: all 0.8s ease;
+       -o-transition: all 0.8s ease;
+       align-items: center;
+}
+.podcast-moja a span{
+       width: 40px;
+       height: 40px;
+       background: rgba(255, 207, 207, 0.573);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       cursor: pointer;
+       border-radius: 7px;
+       -webkit-border-radius: 7px;
+       -moz-border-radius: 7px;
+       -ms-border-radius: 7px;
+       -o-border-radius: 7px;
+       transition: all 0.7s ease;
+       -webkit-transition: all 0.7s ease;
+       -moz-transition: all 0.7s ease;
+       -ms-transition: all 0.7s ease;
+       -o-transition: all 0.7s ease;
+}
+.podcast-moja a:hover{
+       font-weight: 500;
+}
+.podcast-moja a:hover span{
+       background: rgb(255, 207, 207);
+}
+
+.podcast-moja .top-part{
+       padding:20px 30px;
+       background: #f5f2f2;
+       border-radius: 20px;
+       -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+       -ms-border-radius: 20px;
+       -o-border-radius: 20px;
+}
+
+.podcast-moja .bottom-part{
+       background: #f5f2f2;
+       border-radius: 20px;
+       -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+       -ms-border-radius: 20px;
+       -o-border-radius: 20px;
+       margin-top: 10px;
+       padding: 20px;
+}
+.podcast-moja .bottom-part h4{
+       font-family: var(--bold-font);
+       line-height: 1.5;
+}
+.podcast-moja .bottom-header{
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 10px;
+       cursor: pointer;
+}
+.bottom-header span.active{
+       width: 60px;
+       height: 30px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background: var(--main-color);
+       color: white;
+       border-radius: 30px;
+       -webkit-border-radius: 30px;
+       -moz-border-radius: 30px;
+       -ms-border-radius: 30px;
+       -o-border-radius: 30px;
+}
+.bottom-header span{
+       width: 30px;
+       height: 30px;
+       background-color: rgb(255, 207, 207);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 5px;
+       -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+       -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+}
+.bottom-part h4{
+       color: rgb(50,50,50);
+       font-weight: 600;
+}
+.bottom-part h4 span{
+       color: rgb(174, 87, 87);
+}
+
+
+.affiliations-section{
+       padding-bottom: 100px;
+}
+.affiliations-content{
+       padding-top: 100px;
+       border-top: 1px solid rgba(220, 220, 220, 0.5);
+}
+.affiliations-intro{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 50px;
+       align-items: center;
+}
+
+.affiliations-intro h2{
+       font-size: 60px;
+       font-family: var(--bold-font);
+       line-height: 1.5;
+}
+
+.affiliations-intro p{
+       font-size: 26px;
+}
+
+.affiliation-logos{
+       display: flex;
+       gap: 30px;
+       justify-content: space-around;
+       align-items: center;
+       margin-top: 50px;
+}
+.affiliation-logos img{
+       width: 180px;
+}
+
+.booking-section{
+       height: 650px;
+       background:  url("../assets/cta3.jpg") no-repeat;
+       background-size: cover;
+       background-position: top;
+      position: relative;
+      display: flex;
+      justify-content: center;
+}
+
+.booking-section-content{
+       display: flex;
+       gap: 50px;
+       position: absolute;
+       justify-content: space-between;
+       align-items: flex-end;
+       bottom: 100px;
+       left:50%;
+       transform: translateX(-50%);
+       width: 90%;
+       -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+       -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+}
+
+.booking-texts{
+       padding: 40px;
+       background-color: rgba(31, 2, 2, 0.4);
+       width: 60%;
+       border: 1px solid rgba(255, 255, 255, 0.197);
+}
+.booking-texts h2{
+       font-size: 40px;
+       font-family: var(--bold-font);
+       color: whitesmoke;
+       font-weight: 600;
+       margin-bottom: 10px;
+}
+.booking-texts p{
+       color: rgb(238, 238, 238);;
+       font-size: 18px;
+       width: 90%;
+       font-weight: 400;
+}
+
+.booking-section-content a{
+        width: 250px;
+        display: flex;
+        height: 55px;
+        background: var(--main-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: whitesmoke;
+        gap: 5px;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+}
+.booking-section-content a span{
+       display: flex;
+}
+.booking-section-content a:hover{
+       font-weight: 600;
+       gap: 7px;
 }

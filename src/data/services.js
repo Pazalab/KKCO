@@ -26,6 +26,9 @@ export const services = [
     },
     {
         id: 243,
+        title: "View All Services",
+        description: "",
+        link: "/services"
      },
     {
         id: 4,

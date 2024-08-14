@@ -1,6 +1,8 @@
 import { LuMoveRight } from "react-icons/lu";
 import { services } from "../../data/services";
+import { useNavigate } from "react-router-dom";
 const ServicesSection = () => {
+  const navigate = useNavigate();
   return (
     <div className="services-section">
                 <div className="inner-row">
@@ -15,12 +17,11 @@ const ServicesSection = () => {
                                                { services.map(item => 
                                                   <div className="service-moja" key={item.id}>
                                                             <div className="service-moja-texts">
-                                                                         <h2>{item.title}<span><LuMoveRight /></span></h2>
+                                                                         <h2 onClick={()=>navigate(item.link)}>{item.title}<span><LuMoveRight /></span></h2>
                                                                          <p>{item.description}</p>
                                                             </div>
                                                    </div>
                                                )}
-                                               
                                        </div>
                            </div>
                 </div>
