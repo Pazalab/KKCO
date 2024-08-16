@@ -1,6 +1,8 @@
+import Footer from "../components/common/Footer"
 import Navbar from "../components/common/navigation/Navbar"
 import AboutSection from "../components/home/AboutSection"
 import Affiliations from "../components/home/Affiliations"
+import BlogSection from "../components/home/BlogSection"
 import BookingSection from "../components/home/BookingSection"
 import Extrahero from "../components/home/Extrahero"
 import FeaturesSection from "../components/home/FeaturesSection"
@@ -22,6 +24,8 @@ const Home = () => {
            <PodcastSection />
            <Affiliations />
            <BookingSection />
+           <BlogSection />
+           <Footer />
     </>
   )
 }

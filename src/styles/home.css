@@ -258,6 +258,7 @@
         display: flex;
         gap: 50px;
         align-items: flex-start;
+       
 }
 .experience-number-box{
     background: white;
@@ -612,7 +613,7 @@
        background-size: cover;
 }
 .service-moja:nth-child(2){
-       grid-column: 2/4;
+       grid-column: span 2;
        background: linear-gradient(transparent, rgba(54,0,0,0.875)), url("/services/accounting.jpg") no-repeat;
        background-size: cover;
        background-position: center;
@@ -623,7 +624,7 @@
        background-position: bottom;
 }
 .service-moja:nth-child(3){
-      grid-row: 2/4;
+      grid-row: span 2;
       background: linear-gradient(transparent, rgba(54,0,0,0.875)), url("/services/tax.jpg") no-repeat;
       background-size: cover;
       background-position: left;
@@ -959,6 +960,7 @@
        justify-content: space-around;
        align-items: center;
        margin-top: 50px;
+       flex-wrap: wrap;
 }
 .affiliation-logos img{
        width: 180px;
@@ -1032,4 +1034,355 @@
 .booking-section-content a:hover{
        font-weight: 600;
        gap: 7px;
+}
+
+.blog-section{
+       padding: 100px 0;
+}
+
+.blog-section .intro{
+       width: 950px;
+       margin: auto;
+       text-align: center;
+}
+.blog-section .intro h1{
+       font-size: 60px;
+       font-family: var(--bold-font);
+       line-height: 1.4;
+       margin: 10px 0;
+}
+.blog-section .intro p{
+       width: 90%;
+       margin: auto;
+}
+
+.blog-section-row{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap: 30px;
+       margin-top: 50px;
+}
+
+.blog-moja{
+       position: relative;
+       border-radius: 15px;
+       -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+       -ms-border-radius: 15px;
+       -o-border-radius: 15px;
+       cursor: pointer;
+}
+.blog-moja img{
+       height: 380px;
+       border-radius: 15px;
+       -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+       -ms-border-radius: 15px;
+       -o-border-radius: 15px;
+       display: block;
+}
+.blog-moja .overlay{
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.5));
+       top: 0;
+       border-radius: 15px;
+       -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+       -ms-border-radius: 15px;
+       -o-border-radius: 15px;
+       transition: all 1s ease;
+       -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+       -ms-transition: all 1s ease;
+       -o-transition: all 1s ease;
+       opacity: 0.95;
+}
+
+.blog-moja h2{
+       position: absolute;
+       bottom: 0;
+       color: whitesmoke;
+       padding: 30px 30px;
+       line-height: 1.3;
+       font-weight: 600;
+}
+.blog-moja span{
+       position: absolute;
+       top: 10px;
+       right: 20px;
+       color: whitesmoke;
+       font-size: 30px;
+       z-index: 9;
+       opacity: 0;
+       transition: all 0.8s ease;
+       -webkit-transition: all 0.8s ease;
+       -moz-transition: all 0.8s ease;
+       -ms-transition: all 0.8s ease;
+       -o-transition: all 0.8s ease;
+}
+.blog-moja:hover span{
+       cursor: pointer;
+       opacity: 1;
+}
+.blog-moja:hover .overlay{
+       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+}
+
+
+
+@media(max-width: 1260px){
+       .hero-texts h1{
+               font-size: 75px;;
+       }
+       .extra-hero-push{
+              top: -450px;
+       }
+}
+
+@media(max-width: 1200px){
+        .hero-texts h1{
+              font-size: 65px;;
+        }
+}
+
+@media(max-width: 1090px){
+       .hero-section{
+               clip-path: none;
+               padding: 60px 0px 0px 0px
+       }
+        .hero-section-content{
+               grid-template-columns: 1fr;
+               gap: 30px;
+        }
+        .hero-images-spectrum{
+                margin-left: 0;
+                margin-top: 0;
+        }
+        .hero-texts{
+                text-align: center;
+        }
+        .hero-texts p{
+               margin: auto;
+        }
+        .hero-image-side .texts{
+               display: none;
+        }
+        .hero-image-moja.three img,
+        .hero-image-moja.one img{
+              width: 100%;
+              height: 100%;
+        }
+        .hero-solid-first{
+               width: 55%;
+               height: 62%;
+        }
+        .hero-solid-second{
+               width: 73%;
+               height: 82%;
+        }
+        .extra-hero-section{
+              padding: 60px 0px 100px 0px;
+              background: white;;
+        }
+        .extra-hero-push{
+              position: relative;
+              top: 0px;
+        }
+        .extra-hero-push .action-wrap{
+                justify-content: center;
+                align-items: center;
+        }
+        .hero-call-action{
+              position: relative;;
+        }
+        .features-content,
+        .about-section-row,
+        .process-section-content{
+              grid-template-columns: 1fr;
+        }
+        .features-column.adjust{
+              padding-top: 0;
+        }
+        .about-images img:nth-child(2){
+                width: 50%;
+                height: 80%;
+        }
+        .intro.about,
+        .intro.services,
+        .blog-section .intro{
+                width: 100%;
+                text-align: center;
+        }
+
+}
+@media(max-width: 768px){
+       .extra-hero-push .action-wrap{
+               flex-direction: column-reverse;
+       }
+       .hero-call-action .action-box{
+               width: 65px;
+               height: 65px;
+       }
+       .hero-call-action a{
+              font-size: 15px;
+              transform: translateX(-15px);
+              -webkit-transform: translateX(-15px);
+              -moz-transform: translateX(-15px);
+              -ms-transform: translateX(-15px);
+              -o-transform: translateX(-15px);
+}
+    .extra-hero-grid{
+       grid-template-columns: 1fr;
+       gap: 30px;
+    }
+    .dfk-association{
+           order: 3;
+    }
+    .video-box-wrap{
+           order: 2;
+    }
+    .video-box{
+       height: 200px;
+       border-radius: 100px;
+       -webkit-border-radius: 100px;
+       -moz-border-radius: 100px;
+       -ms-border-radius: 100px;
+       -o-border-radius: 100px;
+       width: 100%;
+}
+    .extra-actions{
+          order: 1;
+    }
+    .features-content{
+          gap: 30px;
+    }
+    .features-row,
+    .services-content-row,
+    .process-section-content,
+    .process-specifics,
+    .blog-section-row{
+       grid-template-columns: 1fr;
+    }
+    .features-description p{
+       width:100%;
+    }
+    .intro.about h2,
+    .intro h2,
+    .affiliations-intro h2,
+    .blog-section .intro h1{
+       font-size: 50px;
+    }
+
+    .service-moja:nth-child(2){
+         grid-column: 1/2;
+    }
+    .service-moja:nth-child(3){
+          grid-column: 1/2;
+          grid-row: span 1;
+    }
+    .service-moja:nth-child(6){
+          grid-column: 1/2;
+          grid-row: 5/6
+    }
+    .podcast-grid-row,
+    .podcast-intro,
+    .affiliations-intro{
+          grid-template-columns: 1fr;
+          gap: 30px;
+    }
+    .affiliations-intro{
+           gap: 0;
+           text-align: center;
+    }
+    .affiliations-intro p{
+       font-size: 22px;
+    }
+    .affiliation-logos{
+       margin-top: 30px;
+    }
+    .booking-section{
+          padding: 100px 0;
+          height: auto;
+    }
+    .booking-section-content{
+       flex-direction: column;
+       justify-content: center;
+       gap: 30px;
+       position: relative;
+       align-items: center;
+       bottom: 0;
+    }
+    .booking-texts{
+           width: 90%;
+           text-align: center;
+           background-color: rgba(31, 2, 2, 0.65);
+           padding: 40px 20px;
+    }
+}
+@media(max-width: 530px){
+       .hero-texts h1{
+              font-size: 55px;
+       }
+       .hero-texts p{
+               width: 90%;
+               font-size: 18px;
+       }
+       .center-circular{
+                width: 80px;
+                height: 80px;
+       }
+       .center-circular .inner-circle{
+               width: 35px;
+               height: 35px;
+       }
+       .extra-actions{
+                grid-template-columns: 1fr;
+       }
+       .extra-hero-grid{
+              margin-top: 30px;
+       }
+       .experience-number-box{
+               width: 90%;
+       }
+       .features-content h1,
+       .intro.about h2,
+       .intro h2,
+       .process-moja h3,
+       .podcast-intro h1,
+       .affiliations-intro h2,
+       .blog-section .intro h1{
+               font-size: 40px;;
+       }
+       .process-moja{
+               padding: 30px;
+       }
+}
+
+@media(max-width: 320px){
+        .hero-texts h1{
+               font-size: 45px;
+        }
+        .experience-number-box h2,
+        .features-content h1,
+        .intro.about h2,
+        .intro h2,
+        .process-intro h2,
+        .podcast-intro h1,
+        .booking-texts h2{
+              font-size: 30px;;
+        }
+        .feature-moja{
+                padding: 30px 20px;
+        }
+        .feature-moja h4{
+              font-size: 20px;
+        }
+        .affiliations-intro p{
+               font-size: 18px;;
+        }
+        .booking-texts p{
+               font-size: 16px;
+        }
 }
