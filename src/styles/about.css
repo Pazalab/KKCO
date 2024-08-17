@@ -47,5 +47,43 @@
 }
 
 .about-story{
-      padding: 300px 0px 100px 0px;
+      padding: 300px 0px 80px 0px;
+}
+
+.about-story-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 20px;
+}
+.about-story-column p{
+      margin-bottom: 20px;
+      font-size: 18px;
+}
+
+.about-numbers{
+      padding: 120px 0;
+      background: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0, 0.65)), url("../assets/numbersBg.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+}
+
+.about-numbers-row{
+     width: 1050px;
+     margin: auto;
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     gap: 30px;
+     place-items: center;
+}
+
+.number-moja h1{
+     font-size: 80px;
+     font-family: var(--bold-font);
+     font-weight: 500;
+     color: whitesmoke;
+}
+.number-moja p{
+      color: gainsboro;
+      font-size: 18px;
 }
