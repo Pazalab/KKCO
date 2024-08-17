@@ -1,0 +1,51 @@
+.about-hero{
+     padding: 100px 0 200px 0;
+     background: white;
+}
+
+.about-hero-texts{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.about-hero-texts h1{
+    font-size: 70px;
+    font-family: var(--bold-font);
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.about-hero-texts p{
+      font-size: 20px;
+}
+
+.about-background{
+    position: relative;
+}
+.about-background-images{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 30px;
+     width: inherit;
+     position:absolute;
+     left: 50%;
+     transform: translate(-50%, -30%);
+     -webkit-transform: translate(-50%, -30%);
+     -moz-transform: translate(-50%, -30%);
+     -ms-transform: translate(-50%, -30%);
+     -o-transform: translate(-50%, -30%);
+}
+
+.about-background-images img{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 320px;
+}
+
+.about-story{
+      padding: 300px 0px 100px 0px;
+}

@@ -36,7 +36,7 @@ const Header = () => {
                                    <nav>
                                              <ul>
                                                      <li><NavLink to={"/"}>Home</NavLink></li>
-                                                     <li onMouseEnter={() => setAboutHover(true)} onMouseLeave={() => setAboutHover(false)}><NavLink to={"/about"}>About</NavLink>
+                                                     <li onMouseEnter={() => setAboutHover(true)} onMouseLeave={() => setAboutHover(false)}><NavLink to={"/about-us"}>About</NavLink>
                                                               <Dropdown  data={aboutData} status={aboutHover}/>
                                                      </li>
                                                      <li onMouseEnter={() => setServicesHover(true)} onMouseLeave={() => setServicesHover(false)}><NavLink to={"/services"}>Services</NavLink>
