@@ -43,12 +43,12 @@ const Header = () => {
                                                               <Dropdown data={servicesData} status={servicesHover} />
                                                      </li>
                                                      <li><NavLink to={"/insights"}>Insights</NavLink></li>
-                                                     <li><NavLink to={"/contact"}>Contact</NavLink></li>
+                                                     <li><NavLink to={"/contact-us"}>Contact</NavLink></li>
                                              </ul>
                                               <div className="header-action-wrap">
-                                                       <div onClick={() => navigate("/book-appointment")} className="header-action">
+                                                       <div onClick={() => navigate("/book-consultation")} className="header-action">
                                                                   <span><LiaUserEditSolid /></span>
-                                                                  <p>Book Appointment</p>
+                                                                  <p>Book Consultation</p>
                                                        </div>
                                                        <span onClick={() => setSidebarStatus(true)} className="menu-btn"><CgMenuRight /></span>
                                               </div>

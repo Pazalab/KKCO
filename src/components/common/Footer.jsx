@@ -39,7 +39,7 @@ const Footer = () => {
                                                                              </div>
                                                                              <div className="grid-texts">
                                                                                       <span>For more inquiry</span>
-                                                                                      <h2>+254(0) 702 703 535</h2>
+                                                                                       <h2>+254 710 627 859</h2>
                                                                              </div>
                                                                   </div>
                                                                   <div className="grid-col">

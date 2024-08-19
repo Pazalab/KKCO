@@ -6,6 +6,8 @@ import AboutTeam from "../components/about/AboutTeam"
 import Navbar from "../components/common/navigation/Navbar"
 import Affiliations from "../components/home/Affiliations"
 import "../styles/about.css"
+import Footer from "../components/common/Footer"
+import BookingSection from "../components/home/BookingSection"
 const About = () => {
   return (
     <>
@@ -14,8 +16,10 @@ const About = () => {
             <AboutBackground />
             <AboutNumbers />
             <AboutStatements />
+            <BookingSection />
             <AboutTeam />
             <Affiliations />
+            <Footer />
     </>
   )
 }

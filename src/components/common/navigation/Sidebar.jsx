@@ -81,12 +81,12 @@ const Sidebar = () => {
                                                       <Dropdown data={servicesData} status={serviceClick} />
                                              </li>
                                              <li><NavLink to={"/insights"}>Insights</NavLink></li>
-                                             <li><NavLink to={"/contact"}>Contact</NavLink></li>
+                                             <li><NavLink to={"/contact-us"}>Contact</NavLink></li>
                                     </ul>
 
-                                    <div onClick={() => navigate("/book-appointment")} className="header-action">
+                                    <div onClick={() => navigate("/book-consultation")} className="header-action">
                                               <span><LiaUserEditSolid /></span>
-                                              <p>Book Appointment</p>
+                                              <p>Book Consultation</p>
                                     </div>
                          </div>
              </div>

@@ -36,5 +36,10 @@ export const services = [
         description: "Optimize your technology landscape and drive innovation with our comprehensive IT advisory services.",
         link: "/services/it-advisory"
     },
-
+   {
+       id: 5,
+       title: "Training & Workshops",
+       description: "We offer specialized programs to boost financial skills, compliance knowledge, and industry best practices. Led by experts, these sessions equip businesses and professionals with essential tools for navigating today’s financial landscape.",
+       link: "/services/training-and-workshops"
+   }
 ]

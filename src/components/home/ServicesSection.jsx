@@ -14,7 +14,7 @@ const ServicesSection = () => {
                                        </div>
 
                                        <div className="services-content-row">
-                                               { services.map(item => 
+                                               { services.slice(0, 6).map(item => 
                                                   <div className="service-moja" key={item.id}>
                                                             <div className="service-moja-texts">
                                                                          <h2 onClick={()=>navigate(item.link)}>{item.title}<span><LuMoveRight /></span></h2>

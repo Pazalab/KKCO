@@ -1,0 +1,163 @@
+.contact-hero{
+    padding: 100px 0;
+    background: white;
+}
+.contact-hero-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+.contact-hero-texts h1{
+    font-size: 70px;
+    font-family: var(--bold-font);
+}
+.contact-hero-texts p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.contact-hero-content img{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.contact-body-section{
+       padding: 100px 0;
+}
+
+.contact-body-content{
+       display: grid;
+       grid-template-columns: 1fr 1.5fr;
+       gap: 80px;
+}
+.contact-body-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+.contact-body-texts .text-box{
+     margin-bottom: 10px;
+}
+.contact-body-texts h2{
+      font-size: 50px;
+      font-family: var(--bold-font);
+      margin-bottom: 10px;
+}
+.contact-body-texts  h3{
+    font-family: var(--bold-font);
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact-body-texts p{
+    font-size: 16px;
+}
+.contact-form{
+      background: white;
+      padding: 40px;
+      border-radius: 7px;
+      -webkit-border-radius: 7px;
+      -moz-border-radius: 7px;
+      -ms-border-radius: 7px;
+      -o-border-radius: 7px;
+}
+
+.form-row{
+     margin-bottom: 20px;
+}
+.form-row.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.form-row label{
+    margin-bottom: 5px;
+    display: flex;
+    font-size: 16px;
+}
+.form-row span{
+     color: red;
+     font-size: 13px;
+}
+
+.form-row .form-control{
+      width: 100%;
+      height: 55px;
+      padding-left: 10px;
+      outline: none;
+      background-color: transparent;
+      border: 1px solid gainsboro;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+}
+.form-row .form-text-control{
+    width: 100%;
+    height: 155px;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.form-btn button{
+    width: 200px;
+    height: 55px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 7px;
+    border: 0;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    cursor: pointer;
+}
+
+
+@media(max-width: 1090px){
+        .contact-hero-content,
+        .contact-body-content{
+               grid-template-columns: 1fr;
+               gap: 20px;
+        }
+}
+
+@media(max-width: 768px){
+       .contact-hero-texts h1{
+            font-size: 60px;
+       }
+       .contact-hero-texts p{
+             font-size: 18px;
+       }
+       .form-row.grid{
+           grid-template-columns: 1fr;
+       }
+}
+
+@media(max-width: 530px){
+      .contact-hero-texts h1,
+      .contact-body-texts h2{
+             font-size: 40px;
+      }
+
+      .contact-form{
+            padding: 40px 20px;
+      }
+      .form-btn{
+        display: flex;
+        justify-content: center;
+      }
+}

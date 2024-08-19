@@ -1,0 +1,250 @@
+.services-hero{
+    padding: 100px 0;
+    background: white;
+}
+.services-hero-intro h1{
+     font-size: 70px;
+     font-family: var(--bold-font);
+     font-weight: 600;
+}
+
+.services-hero-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-top: 20px;
+}
+.services-hero-grid img{
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+      max-height: 280px;
+}
+
+.services-hero-intro p{
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+.client-base-section{
+    padding: 100px 0;
+}
+.client-base-grid{
+    display: grid;
+    gap: 40px;
+}
+
+.client-base-grid h3{
+    font-size: 30px;
+    font-family: var(--bold-font);
+    line-height: 1.75;
+    font-weight: 500;;
+}
+
+.client-base-list{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.client-base-moja{
+     background: white;
+     padding: 20px 30px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+}
+.client-base-moja h4{
+    font-family: var(--bold-font);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.services-body{
+      background: white;
+      padding: 100px 0;
+}
+.services-body .intro{
+    text-align: center;
+}
+
+.services-body-row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.services-body-row .service-moja:nth-child(2){
+     grid-column: span 1;
+}
+.services-body-row .service-moja:nth-child(3){
+      grid-row: span 1;
+}
+
+.services-body-row .service-moja:nth-child(6){
+      grid-column: span 1;
+      grid-row: span 1;
+}
+.services-body-row .service-moja:nth-child(5){
+      background: linear-gradient(transparent, rgba(54,0,0,0.875)), url("/services/it.jpg") no-repeat;
+      background-size: cover;
+}
+.services-body-row .service-moja:nth-child(5):hover{
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(54,0,0,0.92)), url("/services/it.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.services-body-row .service-moja:nth-child(6){
+    background: linear-gradient(transparent, rgba(54,0,0,0.875)), url("/services/training.jpg") no-repeat;
+    background-size: cover;
+}
+.services-body-row .service-moja:nth-child(6):hover{
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(54,0,0,0.92)), url("/services/training.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.faq-section{
+       padding: 100px 0;
+}
+.faq-section-content{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.faq-section-texts h2{
+      font-family: var(--bold-font);
+      font-size: 60px;
+      margin-bottom: 20px;
+}
+.faq-section-texts h4{
+      font-size: 20px;
+      width: 90%;
+      font-weight: 500;
+      margin-bottom: 20px;
+}
+
+.faq-section-texts a{
+    display: flex;
+    width: 180px;
+    height: 50px;
+    background: var(--main-color);
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.faq-moja{
+    margin-bottom: 20px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background: white;
+}
+
+.faq-moja .faq-header{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding:20px;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+    align-items: center;
+}
+.faq-header h3{
+     font-size: 20px;
+     font-family: var(--bold-font);
+     font-weight: 500;
+}
+.faq-moja.active .faq-header h3{
+    color: var(--main-color);
+}
+.faq-header span{
+     width: 35px;
+     height: 35px;
+     background: rgba(235, 229, 229, 0.4);
+     display: flex;
+     cursor: pointer;
+     align-items: center;
+     justify-content: center;
+     border-radius: 4px;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+     -o-border-radius: 4px;
+     transition: transform 0.75s ease;
+     -webkit-transition: transform 0.75s ease;
+     -moz-transition: transform 0.75s ease;
+     -ms-transition: transform 0.75s ease;
+     -o-transition: transform 0.75s ease;
+}
+.faq-moja.active .faq-header span{
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+}
+
+.faq-answer{
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.75s ease;
+      -webkit-transition: max-height 0.75s ease;
+      -moz-transition: max-height 0.75s ease;
+      -ms-transition: max-height 0.75s ease;
+      -o-transition: max-height 0.75s ease;
+}
+.faq-moja.active .faq-answer{
+      border-top: 1px solid rgba(220, 220, 220, 0.416);
+      max-height: 250px;
+}
+.faq-answer .answer-inner{
+     padding:5px  20px 20px 20px
+}
+
+
+@media(max-width: 1090px){
+     .services-hero-intro h1,
+     .faq-section-texts h2{
+        font-size: 55px;
+     }
+      .services-hero-grid,
+      .faq-section-content{
+              grid-template-columns: 1fr;
+              gap: 20px;
+      }
+}
+@media(max-width: 768px){
+       .client-base-list,
+       .services-body-row{
+             grid-template-columns: 1fr;
+       }
+       .client-base-grid h3{
+             font-size: 25px;
+       }
+}
+@media(max-width: 530px){
+      .services-hero-intro h1,
+      .faq-section-texts h2{
+           font-size: 40px;
+      }
+      .client-base-grid h3{
+           font-size: 20px;
+      }
+}

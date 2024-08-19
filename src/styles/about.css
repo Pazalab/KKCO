@@ -73,7 +73,7 @@
      margin: auto;
      display: grid;
      grid-template-columns: repeat(4,1fr);
-     gap: 30px;
+     gap: 30px; 
      place-items: center;
 }
 
@@ -314,4 +314,83 @@
 .about-careers-nudge p{
     font-size: 18px;
     width: 800px
+}
+
+@media(max-width: 1090px){
+       .about-hero{
+             padding: 100px 0px 150px 0px;
+       }
+       .about-hero-texts,
+       .about-team-intro{
+              grid-template-columns: 1fr;
+              gap: 0px;
+       }
+       .about-numbers-row,
+       .vision-intro,
+       .about-careers-nudge p{
+              width: 90%; 
+       }
+       .about-statement-content{
+              grid-template-columns: 1fr;
+       }
+       .about-team-row{
+               grid-template-columns: 1fr 1fr;
+       }
+       .about-careers-nudge .careers-split{
+              flex-direction: column;
+              align-items: flex-start;
+       }
+}
+
+@media(max-width: 768px){
+       .about-hero-texts h1,
+       .about-careers-nudge h2{
+               font-size: 50px;
+       }
+       .about-story-row{
+            grid-template-columns: 1fr;
+            gap: 0px;
+       }
+       .about-numbers-row,
+       .values-statements-row{
+              grid-template-columns: 1fr;
+       }
+       .statement-vid{
+              width: 100px;
+              height: 100px;
+       }
+}
+
+@media(max-width: 530px){
+        .about-hero-texts h1,
+        .about-team-intro h2,
+        .about-careers-nudge h2{
+               font-size: 42px;
+        }
+        .about-background-images{
+               grid-template-columns: 1fr;
+               position: relative;
+               left: 50%;
+               transform: translate(-50%, -100px);
+               -webkit-transform: translate(-50%, -100px);
+               -moz-transform: translate(-50%, -100px);
+               -ms-transform: translate(-50%, -100px);
+               -o-transform: translate(-50%, -100px);
+         }
+         .about-story{
+               padding: 0px 0 100px 0;
+         }
+         .number-moja{
+               text-align: center;
+         }
+         .number-moja h1{
+               font-size: 60px;;
+         }
+         .vision-intro h3{
+               font-size: 32px;
+               line-height: 1.4;
+         }
+         .about-team-row{
+               grid-template-columns: 1fr;
+         }
 }
