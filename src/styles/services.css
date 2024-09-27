@@ -271,28 +271,31 @@
     margin: 20px 0px 15px 0px;
     line-height: 1.4;
 }
-.single-service-description p{
+.single-service-stuff p{
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.single-service-description ol{
+.single-service-stuff ol,
+.single-service-stuff ul{
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
 }
-
-.single-service-description ol li span{
+.single-service-stuff ul{
+      list-style: circle;
+}
+.single-service-stuff ol li span{
       font-weight: 600;
       font-size: 20px;
 }
-.single-service-description ol li{
+.single-service-stuff ol li{
       font-size: 18px;
 }
 
 
 .single-it-description{
-      margin-top: 40px;
+      margin-top: 60px;
       display: grid;
       grid-template-columns: 1fr 2.5fr;
       gap: 60px;
@@ -320,11 +323,19 @@
        background: var(--main-color);
        color: white;
 }
-.single-it-body{
-      height: 1500px;
+.single-it-body h3{
+       font-family: var(--bold-font);
+       font-size: 35px;
+       line-height: 1.5;
 }
-
-
+.single-it-body h4{
+     font-size: 25px;
+     font-family: var(--bold-font);
+}
+.benefit-box h4{
+      font-family: var(--bold-font);
+      font-size: 20px;
+}
 
 
 
@@ -352,11 +363,16 @@
 }
 @media(max-width: 768px){
        .client-base-list,
-       .services-body-row{
+       .services-body-row,
+       .single-it-description{
              grid-template-columns: 1fr;
        }
        .client-base-grid h3{
              font-size: 25px;
+       }
+       .single-it-tabs-sticky{
+           position: relative;
+           top: 0;
        }
 }
 @media(max-width: 530px){
@@ -365,13 +381,16 @@
       .single-service-hero-content h1{
            font-size: 40px;
       }
-      .client-base-grid h3{
+      .client-base-grid h3,
+      .single-it-body h4{
            font-size: 20px;
       }
-      .single-service-description h3{
+      .single-service-description h3,
+      .single-it-body h3{
             font-size: 30px;
       }
-      .single-service-description p{
+      .single-service-description p,
+      .single-it-body p{
             font-size: 18px;
       }
 }

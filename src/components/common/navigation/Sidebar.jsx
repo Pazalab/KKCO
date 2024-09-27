@@ -2,7 +2,7 @@ import { useContext, useEffect, useRef, useState } from "react"
 import { sidebarContext } from "./navcontext"
 import gsap from "gsap";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../../assets/logo.png"
+import logo from "../../../assets/logo2.png"
 import { CgClose } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
 import Dropdown from "./Dropdown";

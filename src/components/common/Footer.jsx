@@ -56,21 +56,21 @@ const Footer = () => {
                                             <div className="footer-column">
                                                         <h3>Company</h3>
                                                         <ul>
-                                                                 <li><Link to={"/"}>Our story</Link></li>
-                                                                 <li><Link to={"/"}>Team</Link></li>
-                                                                 <li><Link to={"/"}>Careers</Link></li>
-                                                                 <li><Link to={"/"}>Contact Us</Link></li>
-                                                                 <li><Link to={"/"}>Case studies</Link></li>
+                                                                 <li><Link to={"/about-us"}>Our story</Link></li>
+                                                                 <li><Link to={"/kkco-team"}>Team</Link></li>
+                                                                 <li><Link to={"/careers"}>Careers</Link></li>
+                                                                 <li><Link to={"/contact-us"}>Contact Us</Link></li>
+                                                                 {/* <li><Link to={"/"}>Case studies</Link></li> */}
                                                         </ul>
                                             </div>
                                             <div className="footer-column">
                                                     <h3>Services</h3>
                                                     <ul>
-                                                             <li><Link to={"/"}>Audit & Assurance</Link></li>
-                                                             <li><Link to={"/"}>Outsourced Accounting</Link></li>
-                                                             <li><Link to={"/"}>Business Advisory</Link></li>
-                                                             <li><Link to={"/"}>Tax Consultation</Link></li>
-                                                             <li><Link to={"/"}>IT Advisory</Link></li>
+                                                             <li><Link to={"/service/auditing-and-assurance"}>Audit & Assurance</Link></li>
+                                                             <li><Link to={"/service/outsourced-accounting"}>Outsourced Accounting</Link></li>
+                                                             <li><Link to={"/service/business-advisory"}>Business Advisory</Link></li>
+                                                             <li><Link to={"/service/tax-consulting"}>Tax Consultation</Link></li>
+                                                             <li><Link to={"/service/it-advisory"}>IT Advisory</Link></li>
                                                     </ul>
                                             </div>
 

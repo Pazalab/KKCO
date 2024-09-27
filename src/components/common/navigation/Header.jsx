@@ -1,5 +1,5 @@
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom"
-import logo from "../../../assets/logo.png"
+import logo from "../../../assets/logo2.png"
 import { LiaUserEditSolid } from "react-icons/lia";
 import Dropdown from "./Dropdown";
 import { useContext, useState } from "react";
@@ -22,7 +22,9 @@ const Header = () => {
       { name: "Tax Consultation", link: '/service/tax-consulting'},
       { name: 'Business Advisory', link: "/service/business-advisory"},
       { name: "IT Advisory", link: "/service/it-advisory"},
-      { name: "Outsourcing", link: "/service/outsourcing"},
+      { name: "Outsourced Accounting", link: "/service/outsourcing-accounting"},
+      { name: "Outsourced HR and Recruitment", link: "/service/outsourced-hr-and-recruitment"},
+      { name: "Company Secretarial Services", link: "/service/company-secretarial-services"},
       { name: "Training & Workshops", link: "/service/training-and-workshops"}
   ]
   // eslint-disable-next-line no-unused-vars
