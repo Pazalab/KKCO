@@ -1,4 +1,4 @@
-import { Link, NavLink, useNavigate } from "react-router-dom"
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom"
 import logo from "../../../assets/logo.png"
 import { LiaUserEditSolid } from "react-icons/lia";
 import Dropdown from "./Dropdown";
@@ -10,6 +10,7 @@ const Header = () => {
   const [aboutHover, setAboutHover] = useState(false);
   const [servicesHover, setServicesHover ] = useState(false);
   const navigate = useNavigate();
+  const { pathname } = useLocation();
   const aboutData = [
     { name: "Our story", link: "/about-us"},
     { name: "Team", link: "/kkco-team"},
@@ -17,12 +18,12 @@ const Header = () => {
     { name: "CSR", link: "/kkco-csr"}
   ];
   const servicesData = [
-      { name: "Audit & Assurance", link: "/service/audit-and-assurance"},
-      { name: "Tax Consultation", link: '/service/tax-consultation'},
+      { name: "Audit & Assurance", link: "/service/auditing-and-assurance"},
+      { name: "Tax Consultation", link: '/service/tax-consulting'},
       { name: 'Business Advisory', link: "/service/business-advisory"},
-      { name: "ICT Advisory", link: "/service/ict-advisory"},
+      { name: "IT Advisory", link: "/service/it-advisory"},
       { name: "Outsourcing", link: "/service/outsourcing"},
-      { name: "Training", link: "/service/training"}
+      { name: "Training & Workshops", link: "/service/training-and-workshops"}
   ]
   // eslint-disable-next-line no-unused-vars
   const [ sidebarStatus, setSidebarStatus ] = useContext(sidebarContext);
@@ -39,7 +40,7 @@ const Header = () => {
                                                      <li onMouseEnter={() => setAboutHover(true)} onMouseLeave={() => setAboutHover(false)}><NavLink to={"/about-us"}>About</NavLink>
                                                               <Dropdown  data={aboutData} status={aboutHover}/>
                                                      </li>
-                                                     <li onMouseEnter={() => setServicesHover(true)} onMouseLeave={() => setServicesHover(false)}><NavLink to={"/services"}>Services</NavLink>
+                                                     <li  onMouseEnter={() => setServicesHover(true)} onMouseLeave={() => setServicesHover(false)}><NavLink className={ pathname.slice(1, 8) === "service" ? "active" : ""} to={"/services"}>Services</NavLink>
                                                               <Dropdown data={servicesData} status={servicesHover} />
                                                      </li>
                                                      <li><NavLink to={"/insights"}>Insights</NavLink></li>

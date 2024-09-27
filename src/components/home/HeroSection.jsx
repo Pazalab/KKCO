@@ -1,4 +1,4 @@
-import hero1 from "../../assets/hero3.jpg"
+import hero1 from "../../assets/hero5.jpg"
 import hero2 from "../../assets/hero2.jpg"
 import hero3 from "../../assets/hero4.jpg"
 import { PiStarFourFill } from "react-icons/pi";
@@ -10,8 +10,8 @@ const HeroSection = () => {
               <div className="inner-row">
                          <div className="hero-section-content">
                                      <div className="hero-texts">
-                                              <h1> Expert Financial and Advisory Solutions.</h1>
-                                              <p> We provide comprehensive accounting, advisory, and outsourcing solutions tailored to your unique needs, helping you achieve your financial goals and drive sustainable growth.</p>
+                                              <h1>Expert Audit and Business Advisory Solutions.</h1>
+                                              <p> We provide comprehensive audit, accounting, advisory, and outsourcing solutions tailored to your unique needs, helping you achieve innovative sound systems that drive sustainable growth.</p>
                                      </div>
                                      <div className="hero-image-side">
                                                   <div className="texts">

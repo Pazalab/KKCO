@@ -18,7 +18,7 @@ const AboutBackground = () => {
                                  </div>
                                  <div className="about-story-row">
                                              <div className="about-story-column">
-                                                       <p>In 1985, two visionary leaders, Isaiah Kimani and Joshua Kerrets, laid the foundation for what would become a transformative force in accounting and advisory services. What started as Kimani Kerrets & Co. in Kenya evolved over time, rebrandind in 2015 as KKCO East Africa LLP - a firm committed to driving growth not just for its clients, but across the continent of Africa.</p>
+                                                       <p>In 1985, two visionary leaders, FCPA Isaiah Kimani and FCPA Joshua Kerretts, laid the foundation for what would become a transformative force in audit, accounting and advisory services. What started as Kimani Kerrets & Co. in Kenya evolved over time, rebranding in 2015 as KKCO East Africa LLP - a firm committed to driving growth not just for its clients, but across the continent of Africa.</p>
                                                        <p>From its inception, KKCO has focused on more than just numbers. With a core mission to provide business solutions tailored to each client&apos;s unique needs, the firm has cultivated a culture of growth, wealth creation, and opportunity - both for investors and for the talented professionals it nurtures.</p>
                                              </div>
                                              <div className="about-story-column">

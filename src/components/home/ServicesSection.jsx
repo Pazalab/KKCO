@@ -9,7 +9,7 @@ const ServicesSection = () => {
                            <div className="services-content">
                                        <div className="intro services">
                                                <h3>What We Do</h3>
-                                               <h2>Expert Solutions that meet the Diverse needs of Every Client.</h2>
+                                               <h2>Tailor Made Business Solutions that meet the Diverse needs of Every Client.</h2>
                                                <p>By seamlessly integrating our extensive industry knowledge with the latest tools and advanced methodologies, we develop comprehensive strategies that consistently drive measurable and impactful results.</p>
                                        </div>
 

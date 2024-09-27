@@ -8,11 +8,11 @@ const ClientBase = () => {
                                 <div className="client-base-list">
                                            <div className="client-base-moja">
                                                   <h4>Small and Medium Enterprises (SMEs)</h4>
-                                                  <p>We support growing businesses with expert bookkeeping, tax compliance, financial reporting and advisory services.</p>
+                                                  <p>We support growing businesses with expert bookkeeping,outsourced HR , tax compliance, financial reporting and advisory services.</p>
                                            </div>
                                            <div className="client-base-moja">
                                                     <h4>Corporations and Large Enterprises</h4>
-                                                     <p>Our firm delivers comprehensive audit services, financial consulting, risk management, and compliance solutions to industry-leading organizations.</p>
+                                                     <p>Our firm delivers comprehensive audit services, tax services, financial consulting, risk management, and compliance solutions to industry-leading organizations.</p>
                                            </div>
                                            <div className="client-base-moja">
                                                     <h4>Nonprofit Organizations</h4>
@@ -20,7 +20,7 @@ const ClientBase = () => {
                                            </div>
                                            <div className="client-base-moja">
                                                     <h4>Government Agencies</h4>
-                                                    <p>We partner with government entities to offer external audits, financial oversight and advisory services that ensure transparency and compliance.</p>
+                                                    <p>We partner with government entities to offer external audits, project audits, financial oversight and advisory services that ensure transparency and compliance.</p>
                                            </div>
                                            <div className="client-base-moja">
                                                     <h4>Financial Institutions</h4>

@@ -23,19 +23,19 @@ const FeaturesSection = () => {
                                                      <div className="feature-moja">
                                                                  <img src={priority} alt="" />
                                                                  <h4>Your Business, Our Priority</h4>
-                                                                 <p>From strategic planning to unexpected hurdles, we&apos;re your dedicated financial partner. Our flexible approach ensures you always have the support you need, when you need it.</p>
+                                                                 <p>From strategic planning to unexpected hurdles, we&apos;re your dedicated business advisory partner. Our flexible approach ensures you always have the support you need, when you need it.</p>
                                                      </div>
                                            </div>
                                            <div className="features-column adjust">
                                                    <div className="feature-moja">
                                                                  <img src={strategy} alt="" />
                                                                  <h4>Beyond the Bottom Line</h4>
-                                                                 <p>We se the bigger picture. Our services extend beyond traditional accounting, offering strategic insights and practical solutions to elevate your business.</p>
+                                                                 <p>We see the bigger picture. Our services extend beyond traditional business advisory, offering strategic insights and practical solutions to elevate your business.</p>
                                                      </div>
                                                      <div className="feature-moja">
                                                                  <img src={insights} alt="" />
                                                                  <h4>Industry Insights, Tailored Solutions</h4>
-                                                                 <p>As experts in the finance sector and having worked with a variety of clients, we understand your challenges. Our services are designed to fuel your growth and drive success.</p>
+                                                                 <p>As experts in the audit and business advisory sector and having worked with a variety of clients, we understand your challenges. Our services are designed to fuel your growth and drive success.</p>
                                                      </div>
                                            </div>
                                  </div>

@@ -7,7 +7,7 @@ const AboutTeam = () => {
               <div className="inner-row">
                          <div className="about-team-content">
                                     <div className="about-team-intro">
-                                               <h2>Driving Growth with Expert Accounting and Visionary Leadership</h2>
+                                               <h2>We drive growth with a diverse team of experts and visionary leadership.</h2>
                                                <p>We are a powerhouse of industry experts, innovators, and visionaries united by diverse backgrounds and skill sets. Our collective expertise drives cutting-edge solutions and forward-thinking strategies, setting new benchmarks in the accounting and audit industry. Together, we blend creativity with precision, transforming challenges into opportunities for our clients and shaping the future of financial excellence.</p>
                                     </div>
                                     <div className="about-team-row">

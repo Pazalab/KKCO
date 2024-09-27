@@ -9,10 +9,10 @@ const AboutStatements = () => {
                           <div className="about-statement-content">
                                    <div className="about-statement-texts">
                                               <h4>We commit to deeply understanding your needs to ensure we deliver consistent value and long-term success for your business.</h4>
-                                              <h3>Our Mission</h3>
-                                              <p className="pushy">We exist to deliver client-focused, high-quality accounting and advisory services, driven by a commitment to excellence, guided by integrity and delivered with geniune care and respect.</p>
-                                              <h3>Our Vision</h3>
-                                              <p>We envision being the most trusted and admired leader in professional accounting and business advisory services, setting the standard for excellence and impact.</p>
+                                              <h3>Mission</h3>
+                                              <p className="pushy">Our mission is to deliver value added audit and advisory services that foster trust and drive growth within organizations.</p>
+                                              <h3>Vision</h3>
+                                              <p>To empower individuals and organizations to achieve sustainable growth by providing expert insights and innovative solutions</p>
                                    </div>
                                    <div className="about-statement-images">
                                                <img src={statement1} alt="" />

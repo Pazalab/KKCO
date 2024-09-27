@@ -219,6 +219,121 @@
 }
 
 
+/* Single Service Styles */
+.single-service-hero{
+        padding: 80px 0 200px 0;
+        background: white;
+}
+
+.single-service-intro{
+      text-align: center;
+      width: 900px;
+      margin: auto;
+}
+
+.single-service-hero-content h1{
+       text-align: center;
+       font-size: 60px;
+       font-family: var(--bold-font);
+       margin-bottom: 10px;
+}
+.single-service-hero-content p{
+        font-size: 20px;
+}
+
+.single-service-stuff{
+     margin: auto;
+     transform: translateY(-150px);
+     -webkit-transform: translateY(-150px);
+     -moz-transform: translateY(-150px);
+     -ms-transform: translateY(-150px);
+     -o-transform: translateY(-150px);
+}
+.single-service-stuff img{
+     border-radius: 20px;
+     width: 1000px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -ms-border-radius: 20px;
+     -o-border-radius: 20px;
+     max-height: 500px;
+     display: block;
+     margin: auto;
+}
+.single-service-description{
+    width: 1000px;
+    margin: 20px auto 0px auto;
+}
+.single-service-description h3{
+    font-size: 40px;
+    width: 90%;
+    font-family: var(--bold-font);
+    margin: 20px 0px 15px 0px;
+    line-height: 1.4;
+}
+.single-service-description p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.single-service-description ol{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.single-service-description ol li span{
+      font-weight: 600;
+      font-size: 20px;
+}
+.single-service-description ol li{
+      font-size: 18px;
+}
+
+
+.single-it-description{
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns: 1fr 2.5fr;
+      gap: 60px;
+      position: relative;
+}
+
+.single-it-tabs-sticky{
+     position: sticky;
+     top: 250px;
+     border-left: 1px solid gainsboro;
+     border-right: 1px solid gainsboro;
+     height: auto;
+     border-bottom: 1px solid gainsboro;
+}
+.single-it-tabs-sticky ul li{
+      padding: 20px;
+      border-top: 1px solid gainsboro;
+      font-family: var(--bold-font);
+      font-size: 20px;
+      cursor: pointer;
+}
+
+.single-it-tabs-sticky ul li.active,
+.single-it-tabs-sticky ul li:hover{
+       background: var(--main-color);
+       color: white;
+}
+.single-it-body{
+      height: 1500px;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 1090px){
      .services-hero-intro h1,
      .faq-section-texts h2{
@@ -228,6 +343,11 @@
       .faq-section-content{
               grid-template-columns: 1fr;
               gap: 20px;
+      }
+      .single-service-intro,
+      .single-service-stuff img,
+      .single-service-description{
+        width: 100%;
       }
 }
 @media(max-width: 768px){
@@ -241,10 +361,17 @@
 }
 @media(max-width: 530px){
       .services-hero-intro h1,
-      .faq-section-texts h2{
+      .faq-section-texts h2,
+      .single-service-hero-content h1{
            font-size: 40px;
       }
       .client-base-grid h3{
            font-size: 20px;
+      }
+      .single-service-description h3{
+            font-size: 30px;
+      }
+      .single-service-description p{
+            font-size: 18px;
       }
 }

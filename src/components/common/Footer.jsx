@@ -90,10 +90,10 @@ const Footer = () => {
                         <p>All rights reserved &copy; {new Date().getFullYear()} KKCO East Africa LLP.</p>
                         <div className="social-links">
                                     <ul>
-                                            <li><Link target="_blank"><span><FaFacebookF /></span></Link></li>
-                                            <li><Link target="_blank"><span><FaXTwitter /></span></Link></li>
-                                            <li><Link target="_blank"><span><FaInstagram /></span></Link></li>
-                                            <li><Link target="_blank"><span><FaLinkedinIn /></span></Link></li>
+                                            <li><Link to={"https://web.facebook.com/kkcoeastafrica/"} target="_blank"><span><FaFacebookF /></span></Link></li>
+                                            <li><Link to={"https://x.com/KKco_EastAfrica"} target="_blank"><span><FaXTwitter /></span></Link></li>
+                                            <li><Link to={"https://www.instagram.com/kkco_east_africa/"} target="_blank"><span><FaInstagram /></span></Link></li>
+                                            <li><Link to={"https://www.linkedin.com/company/kkco-east-africa-llp/"} target="_blank"><span><FaLinkedinIn /></span></Link></li>
                                     </ul>
                         </div>
               </div>

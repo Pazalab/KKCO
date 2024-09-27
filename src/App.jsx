@@ -7,6 +7,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import BookConsultation from './pages/BookConsultation';
+import SingleService from './pages/SingleService';
 
 function App() {
   const location = useLocation();
@@ -20,6 +21,7 @@ function App() {
              <Route path='/about-us' element={<About />} />
              <Route path="/services" element={<Services />} />
              <Route path='/contact-us' element={<Contact />} />
+             <Route path='/service/:name' element={<SingleService />} />
              <Route path='/book-consultation' element={<BookConsultation />} />
     </Routes>
   )

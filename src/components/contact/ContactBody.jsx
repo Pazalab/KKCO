@@ -19,7 +19,7 @@ const ContactBody = () => {
                                                            <div className="text-box">
                                                                      <h3>Email</h3>
                                                                      <p>consulting@kkcoeastafrica.com</p>
-                                                                     <p>admin@kkcoeastafrica.com</p>
+                                                                     
                                                            </div>
                                                            <div className="text-box">
                                                                       <h3>Office Location</h3>

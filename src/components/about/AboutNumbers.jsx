@@ -8,15 +8,15 @@ const AboutNumbers = () => {
                                    <p>Years of Service</p>
                         </div>
                         <div className="number-moja">
-                                   <h1>1.2k</h1>
+                                   <h1>10k</h1>
                                    <p>Firms benefited</p>
                         </div>
-                        <div className="number-moja">
+                        {/* <div className="number-moja">
                                     <h1>5k</h1>
                                     <p>Total projects</p>
-                        </div>
+                        </div> */}
                         <div className="number-moja">
-                                   <h1>86</h1>
+                                   <h1>50</h1>
                                    <p>Employees</p>
                         </div>
              </div>

@@ -11,7 +11,7 @@
 }
 
 .hero-texts h1{
-     font-size: 80px;
+     font-size: 65px;
      font-family: var(--bold-font);
      font-weight: 600;
 }
@@ -968,9 +968,9 @@
 
 .booking-section{
        height: 650px;
-       background:  url("../assets/cta3.jpg") no-repeat;
+       background:  url("../assets/conf.avif") no-repeat;
        background-size: cover;
-       background-position: top;
+       background-position: center;
       position: relative;
       display: flex;
       justify-content: center;
@@ -1133,9 +1133,6 @@
 
 
 @media(max-width: 1260px){
-       .hero-texts h1{
-               font-size: 75px;;
-       }
        .extra-hero-push{
               top: -450px;
        }
