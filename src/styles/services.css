@@ -109,6 +109,24 @@
     background-size: cover;
     background-position: center;
 }
+.services-body-row .service-moja:nth-child(7){
+    background: linear-gradient(transparent, rgba(54,0,0,0.875)), url("/services/secretary.jpg") no-repeat;
+    background-size: cover;
+}
+.services-body-row .service-moja:nth-child(7):hover{
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(54,0,0,0.92)), url("/services/secretary.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.services-body-row .service-moja:nth-child(8){
+    background: linear-gradient(transparent, rgba(54,0,0,0.875)), url("/services/hr.jpg") no-repeat;
+    background-size: cover;
+}
+.services-body-row .service-moja:nth-child(8):hover{
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(54,0,0,0.92)), url("/services/hr.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .faq-section{
        padding: 100px 0;
@@ -309,6 +327,10 @@
      border-right: 1px solid gainsboro;
      height: auto;
      border-bottom: 1px solid gainsboro;
+}
+.single-it-tabs-sticky ul{
+      list-style: none;
+      width: 100%;
 }
 .single-it-tabs-sticky ul li{
       padding: 20px;

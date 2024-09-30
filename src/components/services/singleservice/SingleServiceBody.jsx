@@ -77,6 +77,13 @@ const SingleServiceBody = () => {
                                                         { activeService.intro_text_title2 && <h4>{activeService.intro_text_title2}</h4>}
                                                         {activeService.intro_text_description2 && <p>{activeService.intro_text_description2}</p>}
 
+                                                        { activeService.headings && activeService.headings.map(item => 
+                                                                 <div className="extra-box" key={item.id}>
+                                                                          <h4>{item.title}</h4>
+                                                                          <p>{item.text}</p>
+                                                                 </div>
+                                                        )}
+
                                                         { activeService.intro_benefits && <p>{activeService.intro_benefits.title}</p>}
                                                         <ul>
                                                                 { activeService.intro_benefits && activeService.intro_benefits.list.map(item => 

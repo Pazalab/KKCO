@@ -10,7 +10,7 @@ const BookingSection = () => {
                                            <h2>We offer Solutions that drive results</h2>
                                            <p>With our proven track record, collaborative approach, and commitment to excellence, we are uniquely positioned to help you overcome challenges and seize opportunities.</p>
                                   </div>
-                                  <Link to={"/"}>Request Service Now <span><HiOutlineArrowUpRight /></span></Link>
+                                  <Link to={"/book-consultation"}>Request Service Now <span><HiOutlineArrowUpRight /></span></Link>
                        </div>
                </div>
     </div>

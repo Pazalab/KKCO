@@ -8,6 +8,8 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import BookConsultation from './pages/BookConsultation';
 import SingleService from './pages/SingleService';
+import Insights from './pages/Insights';
+import SingleInsight from './pages/SingleInsight';
 
 function App() {
   const location = useLocation();
@@ -23,6 +25,8 @@ function App() {
              <Route path='/contact-us' element={<Contact />} />
              <Route path='/service/:name' element={<SingleService />} />
              <Route path='/book-consultation' element={<BookConsultation />} />
+             <Route path="/insights" element={<Insights />} />
+             <Route path='/insight/:slug' element={<SingleInsight />} />
     </Routes>
   )
 }

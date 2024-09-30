@@ -675,5 +675,173 @@ export const services = [
       description: "We offer expert company secretarial services to ensure regulatory compliance, strong governance, and smooth business operations, allowing you to focus on growth.",
       link: "/service/company-secretarial-services",
       url_param: "company-secretarial-services",
+      image: "/services/secretary.jpg",
+      intro_text_title: "Registration",
+      intro_text_description: "We assist local and foreign companies and Public Benefit Organizations (PBOs) in setting up operations in Kenya. As part of our post-registration services, we obtain Single Business Permits from local County offices.",
+      headings: [
+          {
+                 id: 0,
+                 title: "Meetings and Statutory Changes",
+                 text: "We attend meetings and prepare minutes as required. Our services ensure that all statutory filings, including changes in corporate structure, are completed in accordance with the Companies Act and filed on time with the Registrar of Companies."
+          },
+          {
+             id: 1,
+             title: "Corporate Advice",
+             text: "We provide expert corporate advice on matters like capitalization, restructuring, mergers, and amalgamations. Our goal is to keep clients informed about current changes in the Companies Act."
+          },
+          {
+             id: 2,
+             title: "Custodial Services",
+             text: "We securely hold and manage statutory records such as the Register of Members, Directors and Secretaries, Minute Books, Common Seal, Seal Register, Titles, and other important documents."
+          },
+          {
+            id: 3,
+            title: "Annual Compliance",
+            text: "We ensure that our client companies remain compliant by filing all necessary documents with the relevant authorities within the required timelines."
+          },
+          {
+            id: 3,
+            title: "Meetings Support Services",
+            text: "We assist in drafting meeting agendas, attending meetings, and preparing professional minutes. Additionally, we provide access to Boardroom facilities for meetings."
+          },
+          {
+            id: 4,
+            title: "Incorporation of Companies/Subsidiaries",
+            text: "We facilitate the approval of company names, prepare Memorandums and Articles of Association, and handle the final registration with the Registrar of Companies."
+          },
+          {
+             id: 5,
+             title: "Registration of Foreign Branches",
+             text: "We assist with the registration of foreign branches in Kenya in line with the Companies Act."
+          },
+          {
+            id: 6,
+            title: "Business Name Registration",
+            text: "We help our clients register business names in compliance with the Registration of Business Names Act (Cap 499)."
+          },
+          {
+            id: 7,
+            title: "Trademark Registration",
+            text: "Our services include processing documentation for the registration of trademarks under the Kenyan Trademarks Act (Cap 506)."
+          },
+          {
+             id: 8,
+             title: "Public Issue, Listing, and Security Management",
+             text: "We provide advisory services on the issuance of shares and securities, managing private placements, and ensuring the smooth listing of securities on the securities exchange."
+          },
+          {
+             id:9,
+             title: "Corporate Communication",
+             text: "We facilitate communication with shareholders, stakeholders, regulators, and authorities to ensure smooth corporate interactions."
+          },
+          {
+            id: 10,
+            title: "Registered Address Services",
+            text: "Our office can serve as your company's registered address, as required by the Kenyan Companies Act (Sec 46), ensuring that all communications and notices are properly addressed."
+          },
+          {
+            id: 11,
+            title: "Linking of Companies",
+            text: "We assist companies incorporated before 2016 in linking to the Business Registration Service (BRS) System at the Companies Registry, enabling the online filing of company documents."
+          },
+          {
+            id: 12,
+            title: "Statutory Health Check",
+            text: "We conduct statutory health checks to review and provide assurance on the legal soundness of our client companies."
+          },
+          {
+             id: 13,
+             title: "Striking Off a Company",
+             text: "We manage the striking off process for redundant companies from the company register as governed by the Companies Act."
+          },
+          {
+            id: 14,
+            title: "Compliance Audit",
+            text: "Our team assists Independent Auditors in conducting Secretarial/Compliance Audits to ensure your company remains fully compliant."
+          },
+          {
+            id: 15,
+            title: "Winding Up",
+            text: "We handle the entire process of deregistering local companies, foreign branches, and business names, ensuring they are published in the Kenya Gazette as required by law."
+          }
+      ]
+   },
+   {
+        id: 8,
+        title: "Outsourced HR and Recruitment Services",
+        description: "Our outsourced HR and recruitment services streamline your talent acquisition and employee management processes, helping you attract, retain, and develop top talent while ensuring compliance and operational efficiency.",
+        link: "/service/outsourced-hr-and-recruitment",
+        url_param: "outsourced-hr-and-recruitment",
+        image: "/services/hr.jpg",
+        intro: "Driving Success with Strategic Talent Management",
+        intro_description: "At KKCO East Africa LLP, we understand that effective human resource management is critical for business success. Our outsourced HR and recruitment services are designed to help businesses manage their HR functions efficiently while sourcing, attracting, and retaining top talent. Whether you need a fully outsourced HR solution or specialized recruitment support, we offer tailored services that align with your business goals and support sustainable growth.",
+        intro_choose: "Our team of HR professionals and recruitment experts work closely with businesses to deliver customized solutions that address their unique workforce challenges. We focus on creating a seamless experience for both employees and employers, ensuring that your HR and talent acquisition processes run smoothly and effectively.",
+        intro_benefits: {
+              title: "What Makes Our Outsourced HR and Recruitment Services Unique?",
+              list: [
+                     {
+                           id: 0,
+                           name: "Customized HR Solutions",
+                           description: "We offer outsourced HR services that cater to your specific needs, from day-to-day HR management to strategic talent planning. Whether you need support with compliance, employee relations, or performance management, we tailor our HR solutions to suit your organization."
+                     },
+                     {
+                         id: 1,
+                         name: "Specialized Recruitment Support",
+                         description: "Our outsourced HR services cover the entire spectrum of human resources, including payroll management, employee benefits, performance evaluations, and talent development. We ensure compliance with statutory requirements, giving you peace of mind and allowing you to focus on core business operations."
+                     },
+                     {
+                        id: 2,
+                        name: "Efficient Recruitment Process",
+                        description: "We manage the full recruitment process, from sourcing and screening candidates to onboarding and orientation. This ensures that you not only hire the right people but that they are integrated smoothly into your organization, contributing to success from day one."
+                     },
+                     {
+                        id: 3,
+                        name: "Cost-Effective and Scalable Solutions",
+                        description: "Outsourcing HR and recruitment allows businesses to reduce operational costs and scale services as needed. We offer flexible pricing options, including fixed-fee recruitment and HR outsourcing packages that give you predictability and control over your budget."
+                     },
+                     {
+                        id: 4,
+                        name: "Recruitment Process Outsourcing (RPO)",
+                        description: "For organizations looking to streamline their entire hiring process, our Recruitment Process Outsourcing (RPO) service takes care of everything from job posting to final hire. This gives you the freedom to focus on your business while we manage all aspects of talent acquisition."
+                     },
+              ]
+        },
+        service_list: {
+              intro: "Our Outsourced HR and Recruitment Services Include:",
+              list: [
+                    {
+                         id: 0,
+                         title: "HR Outsourcing:",
+                         description: "We offer full-service HR management, including payroll processing, benefits administration, employee relations, and performance management, ensuring compliance and a positive work environment."
+                    },
+                    {
+                        id: 1,
+                        title: "Talent Acquisition and Recruitment:",
+                        description: "Our recruitment services include sourcing, screening, interviewing, and onboarding for both permanent and temporary positions. We use industry-specific expertise to find the best talent for your organization."
+                    },
+                    {
+                        id: 2,
+                        title: "Temporary and Contract Staffing:",
+                        description: "We provide temporary staffing solutions to help you manage short-term projects or fluctuating workforce needs, allowing for greater flexibility without compromising quality."
+                    },
+                    {
+                         id: 3,
+                         title: "Executive Search and Leadership Hiring:",
+                         description: "Our executive search services are designed to help you recruit senior-level talent with the leadership skills necessary to drive your company’s growth and vision."
+                    },
+                    {
+                        id: 4,
+                        title: "Employee Development and Training:",
+                        description: "We assist with employee development, ensuring your staff has the skills they need to excel. This includes offering tailored training programs that enhance productivity and retention."
+                    },
+                    {
+                        id: 5,
+                        title: "Compliance and Statutory Support:",
+                        description: "Our HR services ensure that your business stays compliant with local labor laws and statutory requirements, including payroll taxes, NSSF, NHIF, and other legal obligations."
+                    }
+              ]
+        },
+        final: "At KKCO East Africa LLP, we provide reliable and scalable HR and recruitment outsourcing services that help you manage your workforce efficiently and hire the best talent. Whether you’re looking to outsource your HR department or streamline your recruitment efforts, we have the expertise and resources to support your business growth.",
+        extra_final: "Let KKCO East Africa LLP be your trusted partner in HR and recruitment, helping you attract top talent and manage your human resources for long-term success. Contact us today to learn more about our outsourced HR and recruitment services!"
    }
 ]

@@ -13,22 +13,24 @@ const Header = () => {
   const { pathname } = useLocation();
   const aboutData = [
     { name: "Our story", link: "/about-us"},
-    { name: "Team", link: "/kkco-team"},
-    { name: "Careers", link: "/careers"},
-    { name: "CSR", link: "/kkco-csr"}
+    { name: "Team", link: "#"},
+    { name: "Careers", link: "#"},
+    { name: "CSR", link: "#"}
   ];
   const servicesData = [
       { name: "Audit & Assurance", link: "/service/auditing-and-assurance"},
       { name: "Tax Consultation", link: '/service/tax-consulting'},
       { name: 'Business Advisory', link: "/service/business-advisory"},
       { name: "IT Advisory", link: "/service/it-advisory"},
-      { name: "Outsourced Accounting", link: "/service/outsourcing-accounting"},
+      { name: "Outsourced Accounting", link: "/service/outsourced-accounting"},
       { name: "Outsourced HR and Recruitment", link: "/service/outsourced-hr-and-recruitment"},
       { name: "Company Secretarial Services", link: "/service/company-secretarial-services"},
       { name: "Training & Workshops", link: "/service/training-and-workshops"}
   ]
   // eslint-disable-next-line no-unused-vars
   const [ sidebarStatus, setSidebarStatus ] = useContext(sidebarContext);
+  const i_path = pathname.slice(1, 8);
+  
   return (
     <header>
              <div className="inner-row">
@@ -45,7 +47,7 @@ const Header = () => {
                                                      <li  onMouseEnter={() => setServicesHover(true)} onMouseLeave={() => setServicesHover(false)}><NavLink className={ pathname.slice(1, 8) === "service" ? "active" : ""} to={"/services"}>Services</NavLink>
                                                               <Dropdown data={servicesData} status={servicesHover} />
                                                      </li>
-                                                     <li><NavLink to={"/insights"}>Insights</NavLink></li>
+                                                     <li><NavLink to={"/insights"} className={i_path === "insight" ? "active": ""}>Insights</NavLink></li>
                                                      <li><NavLink to={"/contact-us"}>Contact</NavLink></li>
                                              </ul>
                                               <div className="header-action-wrap">

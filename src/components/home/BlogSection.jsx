@@ -1,8 +1,9 @@
-import blog1 from "../../assets/conf.avif"
 import { HiMiniArrowLongRight } from "react-icons/hi2";
-import blog2 from "../../assets/blog2.jpg"
-import blog3 from "../../assets/blog3.jpg"
+import { useNavigate } from "react-router-dom";
+
 const BlogSection = () => {
+  const articles = localStorage.getItem("Articles") ? JSON.parse(localStorage.getItem("Articles")) : [];
+  const navigate = useNavigate();
   return (
     <div className="blog-section">
               <div className="inner-row">
@@ -14,26 +15,20 @@ const BlogSection = () => {
                                     </div>
                        </div>
 
-                       <div className="blog-section-row">
-                                  <div className="blog-moja">
-                                              <img src={blog1} alt="" />
-                                              <span><HiMiniArrowLongRight /></span>
-                                              <div className="overlay"></div>
-                                              <h2>The power of strategic planning: a roadmap to success</h2>
-                                  </div>
-                                  <div className="blog-moja">
-                                              <img src={blog2} alt="" />
-                                              <span><HiMiniArrowLongRight /></span>
-                                              <div className="overlay"></div>
-                                              <h2>The importance of good leadership in a growing business</h2>
-                                  </div>
-                                  <div className="blog-moja">
-                                              <img src={blog3} alt="" />
-                                              <span><HiMiniArrowLongRight /></span>
-                                              <div className="overlay"></div>
-                                              <h2>Unlocking growth: strategies for scaling your business</h2>
-                                  </div>
-                       </div>
+                        { articles.length > 0 ?
+                             <div className="blog-section-row">
+                                        { articles.map(item => 
+                                              <div className="blog-moja" key={item.id} onClick={() => navigate(`/insight/${item.slug}`)}>
+                                                        <img src={item.mainImage.url} alt="" />
+                                                        <span><HiMiniArrowLongRight /></span>
+                                                        <div className="overlay"></div>
+                                                         <h2>{item.title}</h2>
+                                              </div>
+                                        )}
+                             </div>
+                               :
+                            <p>No articles found</p>
+                        }
               </div>
     </div>
   )

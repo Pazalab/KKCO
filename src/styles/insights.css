@@ -1,0 +1,85 @@
+.insight-hero{
+      padding: 100px 0;
+      background: white;
+}
+.insight-hero-content{
+     width: 1000px;
+     margin: auto;
+     text-align: center;
+}
+.insight-hero-content h1{
+    font-size: 56px;
+    font-family: var(--bold-font);
+}
+.insight-hero-content p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.single-insight-content{
+    background: white;
+    padding: 100px 0;
+}
+.single-insight-body{
+       width: 1000px;
+       margin: auto;
+}
+
+.single-insight-body h1{
+      font-size: 56px;
+      font-family: var(--bold-font);
+      text-align: center;
+      line-height: 1.5;
+}
+
+.single-insight-image img{
+      max-height: 600px;
+      margin: 20px 0;
+}
+.insight-body-texts p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.insight-body-texts h3{
+      font-family: var(--bold-font);
+      font-size: 36px;
+      margin-bottom: 10px;
+}
+.insight-body-texts ul{
+      list-style: disc;
+      width: 90%;
+      margin: 10px auto;
+}
+.insight-body-texts ol{
+      width: 90%;
+      margin: 10px auto;
+}
+
+.insight-body-texts strong{
+     font-family: var(--bold-font);
+}
+
+
+
+@media(max-width: 1090px){
+      .insight-hero-content{
+            width: 100%;
+      }
+      .single-insight-body{
+           width: 90%;
+      }
+}
+@media(max-width: 768px){
+       .insight-hero-content h1,
+       .single-insight-body h1{
+             font-size: 45px;
+       }
+}
+@media(max-width: 530px){
+      .insight-hero-content h1{
+            font-size: 36px;
+      }
+       .insight-hero-content p{
+             font-size: 18px;
+       }
+}

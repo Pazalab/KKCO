@@ -28,7 +28,7 @@ const AboutTeam = () => {
                                                <h2>Join our Team</h2>
                                                <div className="careers-split">
                                                         <p>At KKCO East Africa, you not only advance your career but also contribute to impactful solutions that drive growth and success for our clients. Would you like to be part of a culture where your skills and ideas are valued? Seize the opportunity to innovate, lead, and make a lasting difference in the world of accounting, auditing and advisory by check out our current open positions.</p>
-                                                        <Link to={"/careers"}>View open positions <span><HiOutlineArrowLongRight /></span></Link>
+                                                        <Link to={"/"}>View open positions <span><HiOutlineArrowLongRight /></span></Link>
                                                </div>
                                     </div>
                          </div>

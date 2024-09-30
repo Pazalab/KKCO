@@ -57,8 +57,8 @@ const Footer = () => {
                                                         <h3>Company</h3>
                                                         <ul>
                                                                  <li><Link to={"/about-us"}>Our story</Link></li>
-                                                                 <li><Link to={"/kkco-team"}>Team</Link></li>
-                                                                 <li><Link to={"/careers"}>Careers</Link></li>
+                                                                 <li><Link to={"/"}>Team</Link></li>
+                                                                 <li><Link to={"/"}>Careers</Link></li>
                                                                  <li><Link to={"/contact-us"}>Contact Us</Link></li>
                                                                  {/* <li><Link to={"/"}>Case studies</Link></li> */}
                                                         </ul>
